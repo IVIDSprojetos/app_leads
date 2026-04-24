@@ -62,7 +62,7 @@ st.markdown("""
 # --- CONFIGURAÇÃO DA CONEXÃO SQLITE ---
 # O Streamlit usa st.connection para gerenciar conexões com bancos de dados.
 # No segredo ou configuração, o tipo 'sqlite' será identificado.
-conn = st.connection("imoveis_db", type="sql", url="sqlite:///imoveis.db")
+conn = st.connection("imoveis_db", type="sql")
 
 # --- DADOS MOCK ---
 ESTADOS_BR = ["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG", "PA", "PB", "PR", "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO"]
